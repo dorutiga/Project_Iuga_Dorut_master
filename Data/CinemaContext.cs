@@ -22,5 +22,6 @@ namespace Project_Iuga_Dorut.Data
             modelBuilder.Entity<Ticket>().ToTable("Tickets");
             modelBuilder.Entity<Movie>().ToTable("Movies");
         }
+        public DbSet<Project_Iuga_Dorut.Models.Producer> Producer { get; set; }
     }
 }
